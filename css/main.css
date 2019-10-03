@@ -1,0 +1,279 @@
+:root {
+  --primary-color: #1f2029;
+  --secondary: goldenrod;
+  --dark: #050406;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-size: 100%;
+  font-family: "Nunito", sans-serif;
+  background: var(--primary-color);
+  color: #fff;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+
+#header {
+  padding: 1rem 1rem;
+  background: #3f3d4e;
+  font-family: "PT Sans", sans-serif;
+  margin-bottom: 3rem;
+}
+
+#navbar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#navbar .logo {
+  color: var(--secondary);
+  font-family: "Passion One", cursive;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.logo-br {
+  color: tomato;
+}
+
+#navbar .logo:hover {
+  color: gold;
+  transition: 1s;
+  cursor: pointer;
+}
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 0 1rem;
+  margin-right: 0.625rem;
+  font-size: 1.1rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.active {
+  outline: none;
+  border: 0;
+  padding: 0.625rem;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px dashed #f8f8f8;
+  transition: 2s;
+  animation-name: fancy-border;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fancy-border {
+  0% {
+    border-color: gold;
+  }
+
+  15% {
+    border-color: yellow;
+  }
+
+  25% {
+    border-color: green;
+  }
+
+  50% {
+    border-color: tomato;
+  }
+
+  75% {
+    border-color: red;
+  }
+
+  100% {
+    border-color: goldenrod;
+  }
+}
+
+.nav-link:hover {
+  color: goldenrod;
+  opacity: 1;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+#welcome-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.25em;
+  padding: 2rem 4rem;
+}
+.hello-text {
+  padding-left: 3rem;
+}
+.ml4 {
+  position: relative;
+  font-weight: bolder;
+  font-size: 4.5em;
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 1rem 1rem;
+}
+
+.profile p {
+  line-height: 1.7;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  text-align: right;
+}
+
+.profile img {
+  border-radius: 25px;
+  margin-top: -4rem;
+}
+
+.programmer {
+  color: gold;
+}
+
+.name {
+  color: tomato;
+  text-decoration: underline;
+  cursor: pointer;
+  cursor: pointer;
+}
+.name:hover {
+  transition: 300ms ease-in-out;
+  color: goldenrod;
+}
+
+.dx {
+  text-decoration: line-through;
+  color: red;
+}
+
+.codex {
+  color: yellow;
+}
+
+.dix {
+  color: tomato;
+}
+
+.code {
+  color: tomato;
+}
+
+.sleep {
+  color: goldenrod;
+}
+
+.eat {
+  color: green;
+}
+
+.loop {
+  color: red;
+}
+.project-header {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.project-header h2 {
+  opacity: 0.7;
+  font-size: 2.5rem;
+  padding: 1rem 0.625rem;
+}
+#projects {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem 2.5rem;
+}
+
+.project-title {
+  padding: 0.625rem 0.875rem;
+  text-align: center;
+  opacity: 0.7;
+  background: tomato;
+}
+.project-title:hover {
+  background: var(--dark);
+  cursor: pointer;
+}
+.project-item {
+  box-shadow: var(--shadow);
+}
+
+.project-img:hover {
+  opacity: 0.7;
+  transition: 400ms ease-in-out;
+  cursor: pointer;
+}
+
+.project-header button {
+  outline: none;
+  border: 0;
+  padding: 0.625rem 1rem;
+  background: #3f3d4e;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 300;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.project-header button:hover {
+  color: gold;
+}
