@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Passion+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/28de576615.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/simplelightbox.min.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -17,9 +19,10 @@
     <div class="wrapper">
         <header id="header">
             <nav id="navbar">
-                <a href="#" class="logo"> <span class="logo-br">{</span> Daniel Narh <span class="logo-br">}</span></a>
+                <a href="index.html" class="logo"> <span class="logo-br">{</span> Daniel Narh <span
+                        class="logo-br">}</span></a>
                 <ul class="nav-items">
-                    <li><a href="#home" class="nav-link hvr-grow home">Home</a></li>
+                    <li><a href="index.html" class="nav-link hvr-grow home">Home</a></li>
                     <li><a href=" #about" class="nav-link hvr-grow">About</a></li>
                     <li><a href="#project" class="nav-link hvr-grow">Projects</a></li>
                     <li><button class="active"><a href="#contact" class="nav-link hvr-grow">Contact</a></button>
@@ -39,7 +42,8 @@
                 </h1>
             </div>
             <div class="profile" id="about">
-                <img src="./images/dan.png" alt="Daniel Narh profile picture" title="My full name is Daniel Narh Kpodo">
+                <img src="./images/dan.png" alt="Daniel Narh profile picture" title="My full name is Daniel Narh Kpodo"
+                    data-aos="zoom-in">
                 <p>My name is <a href="#" class="name">Daniel Narh.</a> <br />I am a <span class="dx">trained Disease
                         Control
                         Officer</span> and a
@@ -51,91 +55,110 @@
 
             </div>
         </section>
-        <div class="project-header" id="project">
+        <div class="project-header exec" id="project">
             <h2 class="ml3">Projects Executed</h2>
         </div>
-        <section id="projects">
-            <div class="project-item">
+        <section id="projects" class="project-executed">
+            <div class="project-item" data-aos="fade-down">
                 <div class="project-img">
-                    <img src="./images/tree.jpg" alt="">
+                    <a href="./images/tree.jpg" title="Click title for preview">
+                        <img src="./images/tree.jpg" alt="Treehouse" class="big">
+                    </a>
                 </div>
                 <div class="project-tile">
-                    <h2><a href="#">Tribute Page</a></h2>
+                    <h2><a href="#" title="Preview webpage">Tribute Page</a></h2>
                 </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-aos="fade-up">
                 <div class="project-img">
-                    <img src="./images/tree.jpg" alt="">
+                    <a href="./images/tree.jpg">
+                        <img src="./images/tree.jpg" alt="Treehouse" class="big">
+                    </a>
                 </div>
                 <div class="project-tile">
                     <h2>Survey Form</h2>
                 </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-aos="fade-up">
                 <div class="project-img">
-                    <img src="./images/tree.jpg" alt="">
+                    <a href="./images/tree.jpg">
+                        <img src="./images/tree.jpg" alt="" class="big">
+                    </a>
                 </div>
                 <div class="project-tile">
                     <h2>Product Landing Page</h2>
                 </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-aos="fade-down">
                 <div class="project-img">
-                    <img src="./images/tree.jpg" alt="">
+                    <a href="./images/tree.jpg">
+                        <img src="./images/tree.jpg" alt="" class="big">
+                    </a>
                 </div>
                 <div class="project-tile">
                     <h2>Developer Portfolio</h2>
                 </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-aos="flip-left">
                 <div class="project-img">
-                    <img src="./images/tree.jpg" alt="">
+                    <a href="./images/tree.jpg">
+                        <img src="./images/tree.jpg" alt="" class="big">
+                    </a>
                 </div>
                 <div class="project-tile">
                     <h2>Technical Documentation</h2>
                 </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-aos="flip-right">
                 <div class="project-img">
-                    <img src="./images/tree.jpg" alt="">
+                    <a href="./images/tree.jpg">
+                        <img src="./images/tree.jpg" alt="" class="big">
+                    </a>
                 </div>
                 <div class="project-tile">
                     <h2>Login Script</h2>
                 </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-aos="flip-left">
                 <div class="project-img">
-                    <img src="./images/tree.jpg" alt="">
+                    <a href="./images/tree.jpg">
+                        <img src="./images/tree.jpg" alt="" class="big">
+                    </a>
                 </div>
                 <div class="project-tile">
                     <h2>File Handling Script</h2>
                 </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-aos="flip-down">
                 <div class="project-img">
-                    <img src="./images/tree.jpg" alt="">
+                    <a href="./images/tree.jpg">
+                        <img src="./images/tree.jpg" alt="" class="big">
+                    </a>
                 </div>
                 <div class="project-tile">
                     <h2>BMI Calculator</h2>
                 </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" data-aos="fade-up">
                 <div class="project-img">
-                    <img src="./images/tree.jpg" alt="">
+                    <a href="./images/tree.jpg">
+                        <img src="./images/tree.jpg" alt="" class="big">
+                    </a>
                 </div>
                 <div class="project-tile">
                     <h2>Fetch API</h2>
                 </div>
             </div>
+
         </section>
-        <div class="project-header">
+        <div class="project-header exec">
             <button>View all <i class="fas fa-arrow-circle-right"></i></button>
         </div>
         <section class="contact-section">
-            <div class="project-header" id="contact">
+            <div class="project-header" id="contact" data-aos="zoom-in-down">
                 <h2>Let's Work together&hellip;</h2>
             </div>
-            <div class="question">
+            <div class="question" data-aos="flip-left">
                 <p>Any questions or project on your mind ?</p>
             </div>
             <div class="social-profiles">
@@ -162,10 +185,12 @@
 
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/simple-lightbox.min.js"></script>
     <script src="./js/script.js"></script>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
-"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>

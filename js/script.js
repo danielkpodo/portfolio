@@ -126,3 +126,10 @@ anime
     easing: "easeOutExpo",
     delay: 1000
   });
+
+/* simple lightbox initialization */
+const gallery = $(".project-executed a").simpleLightbox();
+
+AOS.init({
+  duration: 1000
+});

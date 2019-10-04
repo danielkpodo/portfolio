@@ -36,20 +36,17 @@ ul {
   list-style: none;
 }
 
-#header {
+#navbar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   padding: 1rem 1rem;
-  background: #3f3d4e;
+  background: #0e1111;
   font-family: "PT Sans", sans-serif;
   margin-bottom: 3rem;
   top: 0;
   position: fixed;
   width: 100%;
   z-index: 2;
-}
-
-#navbar {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
 #navbar .logo {
   color: var(--secondary);
@@ -253,6 +250,11 @@ ul {
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   padding: 1rem 2.5rem;
+  background: #3f3d4e;
+}
+
+.exec {
+  background: #3f3d4e;
 }
 
 .project-tile {
