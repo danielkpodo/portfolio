@@ -163,6 +163,10 @@ ul {
   opacity: 0;
 }
 
+.exec button > a:hover {
+  color: gold;
+}
+
 .profile {
   display: flex;
   justify-content: space-evenly;
@@ -267,6 +271,10 @@ ul {
 .project-tile:hover {
   background: var(--dark);
   cursor: pointer;
+  color: gold;
+}
+
+.project-tile a:hover {
   color: gold;
 }
 .project-item {
