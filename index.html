@@ -18,12 +18,12 @@
         <header id="header">
             <nav id="navbar">
                 <a href="#" class="logo"> <span class="logo-br">{</span> Daniel Narh <span class="logo-br">}</span></a>
-
                 <ul class="nav-items">
-                    <li><a href="#home" class="nav-link hvr-grow ">Home</a></li>
-                    <li><a href="#about" class="nav-link hvr-grow">About</a></li>
+                    <li><a href="#home" class="nav-link hvr-grow home">Home</a></li>
+                    <li><a href=" #about" class="nav-link hvr-grow">About</a></li>
                     <li><a href="#project" class="nav-link hvr-grow">Projects</a></li>
-                    <li><button class="active"><a href="#contact" class="nav-link hvr-grow">Contact</a></button></li>
+                    <li><button class="active"><a href="#contact" class="nav-link hvr-grow">Contact</a></button>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -38,12 +38,12 @@
 
                 </h1>
             </div>
-            <div class="profile">
+            <div class="profile" id="about">
                 <img src="./images/dan.png" alt="Daniel Narh profile picture">
                 <p>My name is <a href="#" class="name">Daniel Narh.</a> <br />I am a <span class="dx">trained Disease
                         Control
                         Officer</span> and a
-                    <span class="programmer"><br />&lt; Programmer &#47;&gt;</span>.<br />
+                    <span class="programmer"><br />&lt; Programmer &#47;&gt;</span><br />
                     <br />
                     <span class="codex">I taught myself how to code</span> because I realized the system does't
                     <strong><span class="dix">give a sh*****t</span></strong> about you after school.
@@ -51,7 +51,7 @@
 
             </div>
         </section>
-        <div class="project-header">
+        <div class="project-header" id="project">
             <h2 class="ml3">Projects Executed</h2>
         </div>
         <section id="projects">
@@ -59,7 +59,7 @@
                 <div class="project-img">
                     <img src="./images/tree.jpg" alt="">
                 </div>
-                <div class="project-title">
+                <div class="project-tile">
                     <h2><a href="#">Tribute Page</a></h2>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                 <div class="project-img">
                     <img src="./images/tree.jpg" alt="">
                 </div>
-                <div class="project-title">
+                <div class="project-tile">
                     <h2>Survey Form</h2>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                 <div class="project-img">
                     <img src="./images/tree.jpg" alt="">
                 </div>
-                <div class="project-title">
+                <div class="project-tile">
                     <h2>Product Landing Page</h2>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                 <div class="project-img">
                     <img src="./images/tree.jpg" alt="">
                 </div>
-                <div class="project-title">
+                <div class="project-tile">
                     <h2>Developer Portfolio</h2>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                 <div class="project-img">
                     <img src="./images/tree.jpg" alt="">
                 </div>
-                <div class="project-title">
+                <div class="project-tile">
                     <h2>Technical Documentation</h2>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                 <div class="project-img">
                     <img src="./images/tree.jpg" alt="">
                 </div>
-                <div class="project-title">
+                <div class="project-tile">
                     <h2>Login Script</h2>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                 <div class="project-img">
                     <img src="./images/tree.jpg" alt="">
                 </div>
-                <div class="project-title">
+                <div class="project-tile">
                     <h2>File Handling Script</h2>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                 <div class="project-img">
                     <img src="./images/tree.jpg" alt="">
                 </div>
-                <div class="project-title">
+                <div class="project-tile">
                     <h2>BMI Calculator</h2>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                 <div class="project-img">
                     <img src="./images/tree.jpg" alt="">
                 </div>
-                <div class="project-title">
+                <div class="project-tile">
                     <h2>Fetch API</h2>
                 </div>
             </div>
@@ -132,7 +132,7 @@
             <button>View all <i class="fas fa-arrow-circle-right"></i></button>
         </div>
         <section class="contact-section">
-            <div class="project-header">
+            <div class="project-header" id="contact">
                 <h2>Let's Work together&hellip;</h2>
             </div>
             <div class="question">
@@ -144,7 +144,9 @@
                     <a href="mailto:kpododanielnarh@gmail.com" class="hvr-sink"><i class="fas fa-envelope-square"></i>
                         Email</a>
                 </div>
-                <div class="github"><a href="#" class="hvr-sink"><i class="fab fa-github"></i> Github</a></div>
+                <div class="github"><a href="https://github.com/danielkpodo" target="_blank" class="hvr-sink"
+                        id="profile-link"><i class="fab fa-github"></i>
+                        Github</a></div>
                 <div class="linkedin"><a href="#" class="hvr-sink"><i class="fab fa-linkedin"></i> LinkedIn</a></div>
                 <div class="phone"><a href="#" class="hvr-sink"><i class="fas fa-mobile"></i> Phone</a></div>
             </div>
@@ -162,6 +164,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="./js/script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+"></script>
 </body>
 
 </html>
