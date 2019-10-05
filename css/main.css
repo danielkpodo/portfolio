@@ -79,44 +79,6 @@ ul {
   font-weight: 600;
   opacity: 0.7;
 }
-.active {
-  outline: none;
-  border: 0;
-  padding: 0.625rem;
-  border-radius: 20px;
-  background: transparent;
-  border: 1px dashed #f8f8f8;
-  transition: 2s;
-  animation-name: fancy-border;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes fancy-border {
-  0% {
-    border-color: gold;
-  }
-
-  15% {
-    border-color: yellow;
-  }
-
-  25% {
-    border-color: green;
-  }
-
-  50% {
-    border-color: tomato;
-  }
-
-  75% {
-    border-color: red;
-  }
-
-  100% {
-    border-color: goldenrod;
-  }
-}
 
 .nav-link:hover {
   color: goldenrod;
@@ -163,7 +125,12 @@ ul {
   opacity: 0;
 }
 
-.exec button > a:hover {
+.exec > a {
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.exec > a:hover {
   color: gold;
 }
 
@@ -518,32 +485,6 @@ hr.style-seven:before {
   .question p {
     text-align: center;
     padding: 1rem 0;
-  }
-
-  @keyframes fancy-border {
-    0% {
-      border-color: transparent;
-    }
-
-    15% {
-      border-color: transparent;
-    }
-
-    25% {
-      border-color: transparent;
-    }
-
-    50% {
-      border-color: transparent;
-    }
-
-    75% {
-      border-color: transparent;
-    }
-
-    100% {
-      border-color: transparent;
-    }
   }
 
   #navbar .logo {
