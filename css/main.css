@@ -445,7 +445,6 @@ hr.style-seven:before {
 
   .footer {
     justify-content: space-evenly;
-    justify-items: space-evenly;
   }
 }
 
@@ -520,6 +519,6 @@ hr.style-seven:before {
   }
 
   .project-tile h3 {
-    font-size: 1.1;
+    font-size: 1.1rem;
   }
 }
