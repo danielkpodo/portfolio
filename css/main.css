@@ -577,4 +577,8 @@ hr.style-seven:before {
   #navbar .logo {
     font-size: 2rem;
   }
+
+  .project-tile h3 {
+    font-size: 1.1;
+  }
 }
