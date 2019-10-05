@@ -376,6 +376,16 @@ hr.style-seven:before {
   }
 }
 
+@media screen and (max-width: 800px) {
+  #navbar .logo {
+    font-size: 2rem;
+  }
+
+  .project-tile h3 {
+    font-size: 1.1rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .profile {
     display: flex;
@@ -511,14 +521,15 @@ hr.style-seven:before {
     width: 100%;
     margin: 0 100px 0 0;
   }
-}
 
-@media screen and (max-width: 800px) {
-  #navbar .logo {
-    font-size: 2rem;
+  /* Tweak mobile layout here */
+  .profile {
+    margin: -3rem 0 0 0;
   }
 
-  .project-tile h3 {
-    font-size: 1.1rem;
+  .profile p {
+    margin: 0 -2rem;
+
+    font-size: 1rem;
   }
 }
